@@ -1,0 +1,44 @@
+[
+    {
+        "id": "1",
+        "situation": "Consulter des donnees existantes avec succes ",
+        "method": "GET",
+        "status": 200,
+        "message": "Ok"
+    },
+    {
+        "id": "2",
+        "situation": "Envoyer des donnees valides et creer un enregistrement ",
+        "method": "POST",
+        "status": 201,
+        "message": "Created"
+    },
+    {
+        "id": "3",
+        "situation": "Envoyer des donnees incompletes : la demende est refusee",
+        "method": "POST",
+        "status": 400,
+        "message": "Bad Requet"
+    },
+    {
+        "id": "4",
+        "situation": "Demande un enregistrement qui n'existe pas",
+        "method": "GET",
+        "status": 500,
+        "message": "Not Found"
+    },
+    {
+        "id": "5",
+        "situation": "Modifier un enregistrement et renvoyer les donnees modifiees",
+        "method": "PACHT",
+        "status": 200,
+        "message": "Ok"
+    },
+    {
+        "id": "6",
+        "situation": "supprimer un enregistrement : une erreur serveur imprevue survient",
+        "method": "DELETE",
+        "status": 500,
+        "message": "Internal Server error"
+    }
+]
